@@ -6,6 +6,7 @@ As this is a vim plugin for [waypoint](https://github.com/SwedishPotat0/waypoint
 ## How to install
 <details>
 <summary>Manuall install</summary>
+
 waypoint.vim can be manully installed by putting it into `~/.vim/plugin`
 
 ```
@@ -16,6 +17,7 @@ mv waypoint.vim ~/.vim/plugin
 
 <details>
 <summary>Automatic install</summary>
+
 To automaticly install waypoint.vim you use [vim-plug](https://github.com/junegunn/vim-plug) and just add `Plug 'SwedishPotat0/waypoint.vim'`
 </details>
 
