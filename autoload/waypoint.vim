@@ -9,3 +9,8 @@ function waypoint#open(name) abort
 
 	execute 'edit ' . fnameescape(l:path)
 endfunction
+
+function waypoint#add(name, path) abort
+	call system('waypoint add ' . shellescape(a:name) . ' ' . shellescape(a:path))
+	echo 'Waypoint ' . a:name . ' added'
+endfunction
