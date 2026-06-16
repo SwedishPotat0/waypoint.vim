@@ -23,27 +23,27 @@ To automaticly install waypoint.vim you use [vim-plug](https://github.com/junegu
 
 ## How to use
 
-- **waypointopen** - opens your file
+- **WaypointOpen** - opens your file
     ```
-    :waypointopen [name]
-    ```
-
-- **waypointadd** - adds a bookmark
-    ```
-    :waypointadd [name] [filepath]
+    :WaypointOpen [name]
     ```
 
-- **wayppointtag** - add a tag to a bookmark
+- **WaypointAdd** - adds a bookmark
     ```
-    :waypointtag [name] [tag]
-    ```
-
-- **waypointgroup** - Creat a group and/or add a bookmark to that group
-    ```
-    :waypointgroup [name] [group]
+    :WaypointAdd [name] [filepath]
     ```
 
-- **waypointremove** - Removes a bookmark
+- **WayppointTag** - add a tag to a bookmark
     ```
-    :waypointremove [name]
+    :WaypointTag [name] [tag]
+    ```
+
+- **WaypointGroup** - Creat a group and/or add a bookmark to that group
+    ```
+    :WaypointGroup [name] [group]
+    ```
+
+- **WaypointRemove** - Removes a bookmark
+    ```
+    :WaypointRemove [name]
     ```
