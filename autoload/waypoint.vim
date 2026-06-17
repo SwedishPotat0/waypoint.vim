@@ -16,6 +16,6 @@ function waypoint#add(name, path) abort
 endfunction
 
 function waypoint#tag(name, tag) abort
-	call system('waypoint tag ' . shellescape(a:name) . ' ' . shellescape(a:path))
+	call system('waypoint tag ' . shellescape(a:name) . ' ' . shellescape(a:tag))
 	echo 'Waypoint ' . a:name . ' taged whit: ' . a:tag
 endfunction
