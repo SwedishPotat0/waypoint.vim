@@ -1,0 +1,3 @@
+README|README.md|
+logic|autoload/waypoint.vim|
+declaration|plugin/waypoint.vim|
