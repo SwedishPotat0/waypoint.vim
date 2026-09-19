@@ -19,3 +19,9 @@ function waypoint#tag(name, tag) abort
 	call system('waypoint tag ' . shellescape(a:name) . ' ' . shellescape(a:tag))
 	echo 'Waypoint ' . a:name . ' taged whit: ' . a:tag
 endfunction
+
+function waypoint#list(filter, ...) abort
+	let l:serch = a:0 > 0 ? a:1 : ''
+	let l:out = system('waypoint list ' . shellescape(a:filter) . ' ' . shellescape(l:serch))
+	echo l:out
+endfunction

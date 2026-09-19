@@ -38,4 +38,8 @@ To automaticly install waypoint.vim you use [vim-plug](https://github.com/junegu
     :WaypointTag [name] [tag]
     ```
 
-
+- **WaypointList** - list bookmarks
+     ```
+    :WaypointList [filter] [serch]
+    ```
+    **Note that [serch] is not needed for all filters for list, see waypoint for more information**
