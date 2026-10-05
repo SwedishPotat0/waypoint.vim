@@ -43,3 +43,9 @@ To automaticly install waypoint.vim you use [vim-plug](https://github.com/junegu
     :WaypointList [filter] [serch]
     ```
     **Note that [serch] is not needed for all filters for list, see waypoint for more information**
+
+- **WaypointJump** - jumps to a linked directory
+    ```
+    :WaypointJump [name]
+    ```
+    **Note that it uses the names and paths stored thru the waypoint link command**
