@@ -35,4 +35,5 @@ function waypoint#jump(name) abort
 	endif
 
 	execute 'cd ' . fnameescape(l:path)
+	echo 'Jumped to ' . a:name
 endfunction
