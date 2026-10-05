@@ -25,3 +25,15 @@ function waypoint#list(filter, ...) abort
 	let l:out = system('waypoint list ' . shellescape(a:filter) . ' ' . shellescape(l:serch))
 	echo l:out
 endfunction
+
+function waypoint#jump(name) abort
+	let l:path = system('waypoint getLinked ' . shellescape(a:name))
+	let l:path trim(l:path)
+
+	if empty(l:path)
+		echoerr 'No link found'
+		return
+	endif
+
+	execute 'cd ' . fnameescape(l:path)
+endfunction
